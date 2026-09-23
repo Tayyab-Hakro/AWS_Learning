@@ -17,11 +17,7 @@ const userData = [
       name: 'Jane Smith',
       age: 25,
   },
-  { 
-    name :"Alice Johnson",
-    age: 28
-
-  }
+  
 ];
 
 app.post('/data', (req, res) => {
