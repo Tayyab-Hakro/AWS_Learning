@@ -13,10 +13,7 @@ const userData = [
       name: 'John Doe',
       age: 30,
   },
-  {
-      name: 'Jane Smith',
-      age: 25,
-  },
+
   
 ];
 
