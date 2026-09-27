@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 const userData = [
   {
       name: 'John Doe',
-    
+
   },
 
 
@@ -21,7 +21,6 @@ const userData = [
 app.post('/data', (req, res) => {
   userData.push(req.body);
 
-  res.send('Data received!');
 });
 
 app.listen(PORT, () => {
